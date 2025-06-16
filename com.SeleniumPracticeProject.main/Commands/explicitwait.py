@@ -2,8 +2,7 @@ from jinja2.nodes import FromImport
 from selenium import webdriver
 import time
 
-from selenium.common import NoSuchDriverException, NoSuchElementException, ElementNotVisibleException, \
-    ElementNotSelectableException
+from selenium.common import NoSuchDriverException, NoSuchElementException, ElementNotVisibleException,ElementNotSelectableException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
